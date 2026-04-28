@@ -1,0 +1,20 @@
+This module is tested with doctest for add_integer function.
+
+>>> add_integer = __import__('0-add_integer').add_integer
+>>> add_integer(1, 2)
+3
+
+>>> add_integer(100)
+198
+
+>>> add_integer(100.3, -2)
+98
+
+>>> add_integer(2.9, 3.1)
+5
+
+>>> add_integer(4, "School")
+b must be an integer
+
+>>> add_integer(None)
+a must be an integer
